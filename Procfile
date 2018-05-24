@@ -1,1 +1,1 @@
-web: gunicorn website.wsgi --log-file -
+web: gunicorn prototipo01_pediu.wsgi --log-file -

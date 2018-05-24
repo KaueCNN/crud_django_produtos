@@ -31,7 +31,7 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pediu-deploy.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','pediu-deploy.herokuapp.com']
 
 
 
